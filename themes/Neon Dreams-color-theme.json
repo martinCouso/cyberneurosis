@@ -1,7 +1,7 @@
 {
 	"name": "Neon Dreams",
 	"colors": {
-		"editor.background": "#26293207",
+		"editor.background": "#262932",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#ad00cc",
 		"sideBarTitle.foreground": "#bbbbbb",
