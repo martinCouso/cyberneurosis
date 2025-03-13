@@ -1,10 +1,16 @@
 {
 	"name": "Neon Dreams",
 	"colors": {
-		//"editor.background": "#1B214B",
+		"editor.background": "#26293207",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#ad00cc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#262932",
+		"statusBar.background": "#FDF400",
+		"statusBar.foreground": "#262932",
+		"titleBar.activeBackground": "#FDF400",
+		"titleBar.activeForeground": "#262932",
+		"activityBar.background": "#262932",
 	},
 	"tokenColors": [
 		{
@@ -34,7 +40,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#19C5AF"
 			}
 		},
 		{
@@ -108,7 +114,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#4BD6CE"
+				"foreground": "#f7fefe"
 			}
 		},
 		{
@@ -149,7 +155,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#D1C6C0"
 			}
 		},
 		{
@@ -158,6 +164,7 @@
 				"entity.name",
 				"support.type",
 				"support.class",
+				"support.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
@@ -165,7 +172,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#19C5AF"
 			}
 		},
 		{
@@ -238,7 +245,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#22d481"
+				"foreground": "#19C5AF"
 			}
 		},
 		{
@@ -249,7 +256,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#FDF400"
 			}
 		},
 		{
@@ -258,7 +265,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FDF400"
 			}
 		},
 		{
@@ -362,7 +369,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FDF400"
 			}
 		},
 		{
@@ -555,7 +562,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FDF400"
 			}
 		},
 		{
