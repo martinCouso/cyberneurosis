@@ -1,9 +1,9 @@
 {
   "name": "neon-dreams",
   "publisher": "Utopyk",
-  "displayName": "neon-dreams",
+  "displayName": "neon-memories",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/martinCouso/vscode-theme-neon-dreams.git"
