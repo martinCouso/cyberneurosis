@@ -295,7 +295,7 @@
   position: relative;
 }
 
-.sash-container>.monaco-sash.vertical.minimum:nth-child(2) {
+.sash-container>.monaco-sash.vertical:nth-child(2) {
   background: #70e6f3;
   box-shadow: -1px 2px 10px 1px #cb1dce85;
   width: 0.5px !important;
@@ -379,13 +379,13 @@ span.codicon.codicon-search.search-icon {
 div.window-title:not(:has(p, a, span)) {
   text-align: center;
   transform: translateX(50%);
-  animation: bouncing-text 30s ease-in-out infinite alternate;
+  animation: bouncing-text 12s ease-in-out infinite alternate;
 }
 
 .search-label {
   text-align: center;
   transform: translateX(50%);
-  animation: bouncing-text 30s ease-in-out infinite alternate;
+  animation: bouncing-text-full 12s ease-in-out infinite alternate;
 }
 
 @keyframes bouncing-text {
@@ -395,6 +395,16 @@ div.window-title:not(:has(p, a, span)) {
 
   100% {
     transform: translateX(0%);
+  }
+}
+
+@keyframes bouncing-text-full {
+  0% {
+    transform: translateX(50%);
+  }
+
+  100% {
+    transform: translateX(-50%);
   }
 }
 
@@ -445,6 +455,12 @@ div#workbench\.parts\.auxiliarybar {
   z-index: 1;
   padding: 1px;
   overflow: visible;
+}
+
+.composite.has-composite-bar.header-or-footer.header {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #262932;
 }
 
 @property --angle {
