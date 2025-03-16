@@ -3,11 +3,11 @@
   "publisher": "Martin Couso",
   "displayName": "Cyberneurosis",
   "description": "An over-the-top cyberpunk theme for Visual Studio Code. High tech, Low life.",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "main": "extension.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martinCouso/vscode-theme-neon-dreams.git"
+    "url": "git+https://github.com/martinCouso/cyberneurosis.git"
   },
   "engines": {
     "vscode": "^1.95.0"
