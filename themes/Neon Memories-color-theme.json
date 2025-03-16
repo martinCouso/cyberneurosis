@@ -1,9 +1,21 @@
+// Palette colors
+// Base colors
+// #262932 - Dark Blue
+// #eeffff - White
+// #CB1DCE - Vibrant Purple
+// #9370DC - Purple
+// #D1C5C0 - Light Gray
+// #FDF400 - Yellow
+// #37EBF2 - Cyan
+// #FF5370 - Red
+// #E455AF - Pink
+
 {
-	"name": "Neon Dreams",
+	"name": "Neon Memories",
 	"colors": {
 		"editor.background": "#262932",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#ad00cc",
+		"activityBarBadge.background": "#CB1DCE",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#262932",
 		"statusBar.background": "#FDF400",

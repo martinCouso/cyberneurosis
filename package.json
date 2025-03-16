@@ -1,9 +1,10 @@
 {
-  "name": "neon-dreams",
+  "name": "neon-memories",
   "publisher": "Utopyk",
   "displayName": "neon-memories",
   "description": "",
-  "version": "0.0.5",
+  "version": "0.1.0",
+  "main": "extension.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/martinCouso/vscode-theme-neon-dreams.git"
@@ -14,17 +15,37 @@
   "categories": [
     "Themes"
   ],
-  "license": {
-    "type": "MIT",
-    "url": "https://www.opensource.org/licenses/mit-license.php"
-  }, 
   "contributes": {
+    "commands": [
+      {
+        "command": "neonmemories.initiateNeonMode",
+        "title": "Neon Memories: Initiate Neon Mode"
+      },
+      {
+        "command": "neonmemories.terminateNeonMode",
+        "title": "Neon Memories: Terminate Neon Mode"
+      }
+    ],
+    "configuration": {
+      "title": "Neon Memories",
+      "properties": {
+        "neonmemories.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable Neon Memories"
+        }
+      }
+    },
     "themes": [
       {
-        "label": "Neon Dreams",
+        "label": "Neon Memories",
         "uiTheme": "vs-dark",
-        "path": "./themes/Neon Dreams-color-theme.json"
+        "path": "./themes/Neon Memories-color-theme.json"
       }
     ]
-  }
+  },
+  "activationEvents": [
+    "onCommand:neonmemories.initiateNeonMode",
+    "onCommand:neonmemories.terminateNeonMode"
+  ]
 }
