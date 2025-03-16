@@ -8,25 +8,25 @@ High Tech, Low Life. Enjoy a theme that lets you mod your Editor outside of the 
 
 ## Screenshots
 
-![basic](https://github.com/martinCouso/cyberneurosis/blob/main/demos/screenshots/cyberneurosis_no_mods.JPG)
+![basic](https://github.com/martinCouso/cyberneurosis/raw/main/demos/screenshots/cyberneurosis_no_mods.JPG)
 
-![neon on](https://github.com/martinCouso/cyberneurosis/blob/main/demos/screenshots/cyberneurosis_neon_mod.JPG)
+![neon on](https://github.com/martinCouso/cyberneurosis/raw/main/demos/screenshots/cyberneurosis_neon_mod.JPG)
 
-![neon on ai](https://github.com/martinCouso/cyberneurosis/blob/main/demos/screenshots/cyberneurosis_neon_mod_ai.JPG)
+![neon on ai](https://github.com/martinCouso/cyberneurosis/raw/main/demos/screenshots/cyberneurosis_neon_mod_ai.JPG)
 
 ## Animations
 
 - Window title or animated Ad?
 
-![animated title](https://github.com/martinCouso/cyberneurosis/blob/main/demos/screenshots/title-bar-animation.gif)
+![animated title](https://github.com/martinCouso/cyberneurosis/raw/main/demos/screenshots/title-bar-animation.gif)
 
 - ~~Brand new~~ Neon Effects for your Explorer Tab titles.
 
-![animated title](https://github.com/martinCouso/cyberneurosis/blob/main/demos/screenshots/explorer-title.gif)
+![animated title](https://github.com/martinCouso/cyberneurosis/raw/main/demos/screenshots/explorer-title.gif)
 
 - What's more cyberpunk than borrowing some AI animations from Big Corpos.
 
-![animated title](https://github.com/martinCouso/cyberneurosis/blob/main/demos/screenshots/a-chat-animation.gif)
+![animated title](https://github.com/martinCouso/cyberneurosis/raw/main/demos/screenshots/a-chat-animation.gif)
 
 
 ## Activate Effects
