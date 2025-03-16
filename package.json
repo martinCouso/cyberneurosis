@@ -1,9 +1,10 @@
 {
   "name": "cyberneurosis",
   "publisher": "Utopyk",
+  "icon": "cyberneurosis_icon.png",
   "displayName": "Cyberneurosis",
   "description": "An over-the-top cyberpunk theme for Visual Studio Code. High tech, Low life.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "extension.js",
   "repository": {
     "type": "git",
