@@ -1,8 +1,8 @@
 {
-  "name": "neon-memories",
-  "publisher": "Utopyk",
-  "displayName": "neon-memories",
-  "description": "",
+  "name": "cyberneurosis",
+  "publisher": "Martin Couso",
+  "displayName": "Cyberneurosis",
+  "description": "An over-the-top cyberpunk theme for Visual Studio Code. High tech, Low life.",
   "version": "0.1.0",
   "main": "extension.js",
   "repository": {
@@ -18,34 +18,34 @@
   "contributes": {
     "commands": [
       {
-        "command": "neonmemories.initiateNeonMode",
-        "title": "Neon Memories: Initiate Neon Mode"
+        "command": "cyberneurosis.implantNeonMod",
+        "title": "Cyberneurosis: Implant Neon Mod"
       },
       {
-        "command": "neonmemories.terminateNeonMode",
-        "title": "Neon Memories: Terminate Neon Mode"
+        "command": "cyberneurosis.removeNeonMod",
+        "title": "Cyberneurosis: Remove Neon Mod"
       }
     ],
     "configuration": {
-      "title": "Neon Memories",
+      "title": "Cyberneurosis",
       "properties": {
-        "neonmemories.enable": {
+        "cyberneurosis.enable": {
           "type": "boolean",
           "default": true,
-          "description": "Enable Neon Memories"
+          "description": "Enable Neon Mod"
         }
       }
     },
     "themes": [
       {
-        "label": "Neon Memories",
+        "label": "Cyberneurosis",
         "uiTheme": "vs-dark",
-        "path": "./themes/Neon Memories-color-theme.json"
+        "path": "./themes/Cyberneurosis-color-theme.json"
       }
     ]
   },
   "activationEvents": [
-    "onCommand:neonmemories.initiateNeonMode",
-    "onCommand:neonmemories.terminateNeonMode"
+    "onCommand:cyberneurosis.implantNeonMod",
+    "onCommand:cyberneurosis.removeNeonMod"
   ]
 }

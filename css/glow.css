@@ -434,7 +434,7 @@ div#workbench\\.parts\\.auxiliarybar {
   position: relative;
   border: 10px solid transparent !important;
   z-index: 1;
-  padding: 1px;
+  padding: 2px;
   overflow: visible;
 }
 
@@ -501,33 +501,44 @@ div#workbench\\.parts\\.auxiliarybar::after {
   left: 0;
   top: 0;
   height: 100%;
-  background: conic-gradient(from var(--angle),
-      #FF4B72,
-      /* A vibrant red/pink */
-      #FFB24D,
-      /* Bold orange */
-      #ffcc00,
-      /* Warm #FDC173 */
-      #AFCFE9,
-      /* Fresh green */
+  background: conic-gradient(from var(--angle), #FF4B72,
+      #c91ae9,
+      #4707c5,
+      #d70654,
       #59C7FC,
-      /* Light blue */
       #A1A3FB,
-      /* Deep purple */
-      #EE91FE,
-      #FE72E9,
-      #FD4F9C,
-      #FF4889
-      /* Loop back to red/pink */
-    );
+      #EE91FE, #FE72E9, #FD4F9C, #FF4889);
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   z-index: -1;
-  animation: spin 3s linear infinite;
+  animation: spin 10s linear infinite;
 }
 
 div#workbench\\.parts\\.auxiliarybar::after {
   filter: blur(3px);
+  animation: spin 10s linear infinite, animateBlur 10s linear infinite;
+}
+
+@keyframes animateBlur {
+  0% {
+    -webkit-filter: blur(2px);
+  }
+
+  25% {
+    -webkit-filter: blur(7px);
+  }
+
+  50% {
+    -webkit-filter: blur(2px);
+  }
+
+  75% {
+    -webkit-filter: blur(7px);
+  }
+
+  100% {
+    -webkit-filter: blur(2px);
+  }
 }
 
 @keyframes moveAroundParent {
